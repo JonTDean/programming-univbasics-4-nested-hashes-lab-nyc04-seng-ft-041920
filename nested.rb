@@ -62,9 +62,6 @@ programmer_hash[:dennis_ritchie][:languages].join('')
 end
 
 def adding_matz
-
-return the entire updated hash
-
 	programmer_hash = 
  		{
       :grace_hopper => {
@@ -84,7 +81,8 @@ return the entire updated hash
       :languages => ["LISP", "C"]
       }
     }
-
+    
+  programmer_hash
 end
 
 def changing_alan
